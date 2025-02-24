@@ -1,44 +1,43 @@
-
 # Fragrances Recommender System
 
 ## Overview
-The **Fragrances Recommender System** is designed to provide personalized perfume recommendations based on customer preferences and fragrance reviews. It is tailored to assist businesses, such as Macy's, in enhancing customer engagement and improving satisfaction by delivering tailored suggestions.
+The **Fragrances Recommender System** delivers personalized perfume recommendations based on customer preferences and fragrance reviews. Designed for businesses like Macy's, it enhances customer engagement and satisfaction by offering tailored suggestions.
 
 ## Features
-- **Personalized Recommendations**: Matches user-input attributes (e.g., "exotic") with fragrance reviews.
-- **Sentiment Analysis**: Analyzes reviews for sentiment (positive, negative, neutral).
-- **Topic Modeling**: Identifies key themes in reviews using advanced NLP techniques like BERT.
-- **Customer Insights**: Highlights popular attributes and products customers desire.
-- **API Integration**: Built to support online and in-store applications.
+- **Personalized Recommendations**: Matches user preferences (e.g., "exotic") with fragrance reviews.
+- **Sentiment Analysis**: Evaluates reviews to determine sentiment (positive, negative, neutral).
+- **Topic Modeling**: Extracts key themes from reviews using advanced NLP techniques like BERT.
+- **Customer Insights**: Identifies popular attributes and fragrances based on customer feedback.
+- **API Integration**: Supports both online and in-store applications.
 
 ## Data Source
-- Scraped over **44,000 fragrance reviews** from the **Base Notes** forum up to December 2019.
-- Reviews include sentiment ratings and detailed fragrance descriptions.
+- Collected **44,000+ fragrance reviews** from the **Base Notes** forum (up to December 2019).
+- Reviews contain sentiment ratings and detailed fragrance descriptions.
 
 ## Use Case
-Example: A customer visits a store, looking for an "exotic" fragrance. They input their preference into the kiosk system, which recommends suitable perfumes based on historical reviews and attributes.
+Example: A customer looking for an "exotic" fragrance enters their preference into an in-store kiosk system. The system analyzes historical reviews and attributes to recommend the most suitable perfumes.
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pranvgarg/Fragrances-Recommender-System.git
+   git clone https://github.com/rony-99/Fragrances-Recommender-System.git
    cd Fragrances-Recommender-System
    ```
-2. Install required libraries:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
 ## Usage
-- Open and run the `Fragrance_recommender_system_Base_Notes.ipynb` notebook to execute the recommendation engine.
+- Run the `Fragrance_recommender_system_Base_Notes.ipynb` notebook to execute the recommendation engine.
 - Use `Base_note_scrapper.ipynb` to scrape and process additional fragrance reviews.
+- The uploaded notebook `Fragrance_recommender_system_Base_Notes.ipynb` contains additional insights and implementation details.
 
 ## Future Enhancements
 - **Sentence Transformers** for scalable and efficient topic modeling.
-- Integration of **customer behavior metadata** (e.g., demographics, clickstream data) for richer personalization.
-- **Pricing API** to include budget-based recommendations.
-- **In-store Mapping**: Output aisle numbers for easier product location in stores.
+- Incorporation of **customer behavior metadata** (e.g., demographics, clickstream data) for enhanced personalization.
+- **Pricing API** integration to offer budget-based recommendations.
+- **In-store Mapping**: Displays aisle locations for easier product discovery.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
